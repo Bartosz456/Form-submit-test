@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="car.png" type="image/x-icon">
+		<link rel="shortcut icon" href="car.png" type="image/x-icon" />
 		<link rel="stylesheet" href="style.css" />
 		<link
 			rel="stylesheet"
@@ -15,8 +15,11 @@
 	<body>
 		<i class="ti ti-car-turbine"></i>
 		<form
-			action="https://formsubmit.io/send/bartoszsz14@gmail.com"
+			class="form"
 			method="POST"
+			name="contact"
+			action="/success"
+			data-netlify="true"
 		>
 			<label for="name">Imię</label><br />
 			<input type="text" id="name" name="name" placeholder="Wpisz imię" /><br />
@@ -31,7 +34,7 @@
 			<textarea name="msg" id="msg" rows="5" placeholder="Wpisz wiadomość">
 			</textarea
 			><br />
-			<input value="Wyślij" type="submit" class="submit"/>
+			<input value="Wyślij" type="submit" class="submit" />
 		</form>
 	</body>
 </html>

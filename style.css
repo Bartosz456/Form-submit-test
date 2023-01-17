@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+i {
+    font-size: 50px;
+}
+form {
+    margin: 15px 15px 15px 15px;
+}
+.submit {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: black;
+    color: #fff;
+}
